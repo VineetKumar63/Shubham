@@ -1,0 +1,60 @@
+/* src/components/EnquiryForm.css */
+.enquiry-form {
+    padding: 20px;
+  }
+  
+  .form-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .form-header select,
+  .form-header button {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .form-sections {
+    display: flex;
+    background-color: #e2ede2;
+  }
+  .venue-sections {
+    background-color: #e2ede2;
+  }
+  
+  .form-section {
+    flex: 1;
+    background-color: #e2ede2;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .form-section h2 {
+    margin-top: 0;
+  }
+  
+  .form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .form-group label {
+    width: 30%;
+    margin-right: 10px;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 65%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+
+  
