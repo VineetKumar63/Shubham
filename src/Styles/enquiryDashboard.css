@@ -1,0 +1,172 @@
+/* src/components/EnquiryDashboard.css */
+.enquiry-dashboard {
+    padding: 20px;
+}
+
+.action-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    background-color: #e6ede8;
+    border-radius: 12px;
+    padding: 10px;
+    
+}
+
+.action-bar input {
+    top: 101px;
+    left: 328px;
+    width: 220px;
+    height: 40px;
+    padding: 0px 8px;
+    border: 1px solid #d3dfd6;
+    box-sizing: border-box;
+    border-radius: 12px;
+    background-color: #f1f5f2;
+    color: #275664;
+    font-size: 14px;
+    font-family: "Poppins";
+    font-weight: 500;
+    line-height: 19px;
+    outline: none;
+}
+
+.action-bar button {
+    cursor: pointer;
+    padding: 0px 8px;
+    border: 0;
+    box-sizing: border-box;
+    border-radius: 12px;
+    background-color: #50777d;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "Poppins";
+    font-weight: 700;
+    line-height: 18px;
+    outline: none;
+}
+
+.new-enquiries {
+    margin-bottom: 20px;
+}
+
+.new-enquiries h2 {
+    margin-top: 0;
+}
+
+.new-enquiries table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.new-enquiries th,
+.new-enquiries td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.new-enquiries th {
+    background-color: #f8f9fa;
+}
+
+.enquiries-list table {
+    width: 100%;
+    border-collapse: collapse;
+    top: 168px;
+    left: 304px;
+    height: auto;
+    background-color: #f1f5f2;
+    border-radius: 12px;
+    ;
+}
+
+.enquiries-list td {
+    border-top: 1px solid #dedede;
+    padding: 10px;
+    text-align: left;
+    color: #50777d;
+    font-size: 14px;
+    font-family: "Poppins";
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.enquiries-list th {
+    padding: 10px;
+    color: #275664;
+    font-size: 18px;
+    font-family: "Poppins";
+    font-weight: 700;
+    line-height: 23px;
+    text-align: left;
+}
+
+.email-archive-button {
+    cursor: pointer;
+    top: 252px;
+    left: 1211px;
+    width: 72px;
+    height: 24px;
+    padding: 0px 8px;
+    border: 0;
+    box-sizing: border-box;
+    border-radius: 12px;
+    background-color: #d3dfd6;
+    color: #275664;
+    font-size: 12px;
+    font-family: "Poppins";
+    font-weight: 500;
+    line-height: 16px;
+    outline: none;
+}
+
+.status-button {
+    cursor: pointer;
+    top: 251px;
+    left: 1115px;
+    width: 72px;
+    height: 24px;
+    padding: 0px 8px;
+    border: 0;
+    box-sizing: border-box;
+    border-radius: 12px;
+    color: #ffffff;
+    font-size: 12px;
+    font-family: "Poppins";
+    font-weight: 500;
+    line-height: 16px;
+    outline: none;
+}
+
+.status-pending {
+    background-color: #4297a9;
+
+}
+
+.status-ongoing {
+    background-color: #f1f5f2;
+    color: #000000;
+    border: 1px solid #d3dfd6;
+}
+
+.status-done {
+    background-color: #275664;
+}
+
+.status-new {
+    background-color: #4297a9;
+}
+
+
+
+
+
+.enquiries-list .type {
+    color: #50777d;
+    font-size: 14px;
+    font-family: "Poppins";
+    font-weight: 700;
+    line-height: 18px;
+}

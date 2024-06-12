@@ -1,7 +1,7 @@
 /* src/components/Sidebar.css */
 .container-fluid {
     display: flex;
-    height: 100vh;
+    height: 100%;
   }
   
   .d-flex {
@@ -14,6 +14,12 @@
     background-color: #e2ede2;
     padding: 20px;
     height: 100vh;
+    color: '#50777d';
+    font-size: '20px';
+    font-family: 'Poppins';
+    font-weight: 700;
+    line-height: '26px';
+
   }
   
   .sidebar ul {
@@ -22,13 +28,18 @@
   }
   
   .sidebar ul li {
-    margin: 15px 0;
+    margin: 25px 0;
   }
   
   .sidebar ul li span {
     text-decoration: none;
-    color: #333;
+    color: #50777d;
+    font-weight: 500;
   }
+  .sidebar ul li :target {
+      background-color: #fff;
+  }
+
   
   .main-content {
     flex: 1; /* Remaining 80% width */
@@ -36,3 +47,11 @@
     background-color: #fff;
   }
   
+
+  .logo-text{
+      color: #275664;
+      font-size: 24px;
+      font-family: "Poppins";
+      font-weight: 700;
+      line-height: 28px;
+    }

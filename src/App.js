@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Notification from './pages/notification';
 import Dashboard from './pages/dashboard';
 import Consultations from './pages/Consultations';
+import EnquiryDashboard from './pages/NewEnquiryDashboard';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
               <Sidebar/>} >
               <Route path='/enquiry' element={<Enquiry/>} />
               <Route path='/notification' element={<Notification/>} />
-              <Route path='/' element={<Dashboard/>} />
+              <Route path='/' element={<EnquiryDashboard/>} />
               <Route path='/consultations' element={<Consultations/>} />
         </Route>
       </Routes>

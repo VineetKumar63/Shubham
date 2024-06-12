@@ -1,14 +1,14 @@
 // src/components/Sidebar.js
 import React from "react";
 import { Link, Outlet } from "react-router-dom";
-import '../sidebar.css';
+import '../Styles/sidebar.css';
 
 function Sidebar() {
   return (
     <div className="container-fluid">
       <div className="d-flex">
         <div className="sidebar ">
-        <h3>ENQUIRY</h3>
+        <h3 className="logo-text">ENQUIRY</h3>
           <ul>
           <li>
           <Link to="/notification" className="nav-link px-1 align-middle">
