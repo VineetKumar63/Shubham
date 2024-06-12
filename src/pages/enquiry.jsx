@@ -6,22 +6,22 @@ import Row from "react-bootstrap/esm/Row";
 function Enquiry() {
   return (
     <div className="enquiry-page">
-      <div className="enquiry-nav card">
-        <Row>
-          <Col>
-            <label htmlFor="enquiry-form">Enquiry Form:</label>
-            <select id="enquiry-form" className="mx-2">
-              <option>Wedding</option>
-            </select>
-          </Col>
-          <Col>
-            <label htmlFor="status">Status: </label>
-            <select id="status" className="mx-2">
-              <option>Enquiry</option>
-            </select>
-            <button>Save</button>
-          </Col>
-        </Row>
+      <div className="enquiry-nav card d-flex flex-row align-items-center justify-content-between p-3">
+        <div className="d-flex align-items-center">
+          <label htmlFor="enquiry-form">Enquiry Form:</label>
+          <Form.Select className="mx-2">
+          <option>Wedding</option>
+          </Form.Select>
+        </div>
+        <div className="d-flex align-items-center">
+          <label htmlFor="status">Status: </label>
+          <Form.Select id="status" className="mx-2">
+            <option>Enquiry</option>
+          </Form.Select>
+        </div>
+        <div>
+          <button>Save</button>
+        </div>
       </div>
       <div className="client-details">
         <Form className="form-sections">
@@ -152,7 +152,7 @@ function Enquiry() {
       </div>
       <div className="form-sections">
         <FormSection title="Notes">
-          <Form.Control 
+          <Form.Control
             placeholder="Test to see if notes save correctly"
             id="notes"
           />

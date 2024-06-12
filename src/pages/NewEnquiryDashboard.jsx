@@ -14,50 +14,6 @@ function EnquiryDashboard() {
         </button>
         <button>Submit</button></div>
       </div>
-      <div className="new-enquiries">
-        <h2>New Enquiries</h2>
-        <table>
-          <thead>
-            <tr>
-              <th></th>
-              <th>Enquiry due</th>
-              <th>Enquiry stage</th>
-              <th>Enquiry priority</th>
-              <th>Enquiry team</th>
-              <th>Enquiry</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><input type="checkbox" /></td>
-              <td>Complete enquiry form</td>
-              <td>Today’s</td>
-              <td>Ongoing</td>
-              <td>High priority</td>
-              <td>Special event</td>
-              <td><img src="icon1.png" alt="icon1" /></td>
-            </tr>
-            <tr>
-              <td><input type="checkbox" /></td>
-              <td>Contract confirmation</td>
-              <td>Today’s</td>
-              <td>Ongoing</td>
-              <td>Medium priority</td>
-              <td>Operational</td>
-              <td><img src="icon2.png" alt="icon2" /></td>
-            </tr>
-            <tr>
-              <td><input type="checkbox" /></td>
-              <td>Marketing event setup</td>
-              <td>Today’s</td>
-              <td>Ongoing</td>
-              <td>View</td>
-              <td>Enquiry support</td>
-              <td><img src="icon3.png" alt="icon3" /></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
       <div className="enquiries-list">
         <table>
           <thead>
