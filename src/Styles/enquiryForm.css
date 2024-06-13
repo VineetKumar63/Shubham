@@ -2,7 +2,6 @@
 *body {
   font-family: "Poppins";
 }
-
 .enquiry-page input{
   height: 51px;
   padding: 0px 8px;
@@ -20,13 +19,11 @@ hr {
   border-top: 2px solid gray;
 }
 .enquiry-nav.card{
-  width: auto;
+  width: 1140px;
   height: 73px;
   background-color: #e6ede8;
   border-radius: 12px;
   margin-bottom: 20px;
-  padding-top:10px;
-  padding-left: 10px;
 }
 .enquiry-nav.card label{
   color: #50777d;
@@ -52,12 +49,10 @@ hr {
 .enquiry-form {
   padding-bottom: 20px;
 }
-
 .form-header label {
   font-weight: 800;
   font-size: large;
 }
-
 .form-header {
   background-color: #e2ede2;
   padding: 10px;
@@ -65,16 +60,6 @@ hr {
   justify-content: space-between;
   margin-bottom: 20px;
 }
-
-.form-header select {
-  width: 300px;
-  padding: 8px 12px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  background-color: #fff;
-  cursor: pointer;
-}
-
 .form-header button {
   cursor: pointer;
   color: #ffffff;
@@ -91,18 +76,18 @@ hr {
   outline: none;
   background-color: #50777d;
 }
-
 .form-sections {
   display: flex;
-  background-color: #e2ede2;
+  background-color: #f1f5f2;
 }
-
 .venue-sections {
-  background-color: #e2ede2;
+  margin-top: 20px;
+  width: 1140px;
+  height: 542px;
+  background-color: #f1f5f2;
 }
 .form-section {
   flex: 1;
-  background-color: #e2ede2;
   padding: 10px;
   border-radius: 8px;
 }
@@ -163,16 +148,103 @@ hr {
   margin-right: 10px;
   margin-left: 30px;
 }
-.client-details {
-  top: 129px;
-  left: 259px;
-  width: auto;
-  height: 400px;
-  background-color: #f1f5f2;
-}
 .subHeading{
   color: #275664;
   font-size: 16px;
   font-family: "Poppins";
   line-height: 18px;
 }
+.event-details  select,  #event-date input ,  #enquiry-date input, #venue-a-phone input, #venue-b-phone input, #planner-name input, #planner-phone input{
+  top: 251px;
+  left: 841px;
+  width: 219px;
+  height: 51px;
+  padding: 0px 8px;
+  border: 1px solid #d3dfd6;
+  box-sizing: border-box;
+  border-radius: 12px;
+  background-color: #ffffff;
+  color: #50777d;
+  font-size: 16px;
+  font-family: "Poppins";
+  line-height: 20px;
+  outline: none;
+}
+.client-section input{
+  top: 251px;
+  left: 310px;
+  width: 484px;
+  height: 51px;
+  padding: 0px 8px;
+  border: 1px solid #ccccd1;
+  box-sizing: border-box;
+  border-radius: 12px;
+  background-color: #ffffff;
+  color: #50777d;
+  font-size: 16px;
+  font-family: "Poppins";
+  line-height: 20px;
+  outline: none;
+}
+.detail-card{
+  top: 129px;
+  left: 287px;
+  width: 1140px;
+  height: 350px;
+  background-color: #f1f5f2;
+}
+#venue-a input{
+  top: 650px;
+  left: 310px;
+  width: 484px;
+  height: 51px;
+  padding: 0px 8px;
+  border: 1px solid #ccccd1;
+  box-sizing: border-box;
+  border-radius: 12px;
+  background-color: #ffffff;
+  color: #50777d;
+  font-size: 16px;
+}
+#venue-a-contact input, #company-name input{  top: 748px;
+  width: 240px;
+  height: 51px;
+  padding: 0px 8px;
+  border: 1px solid #ccccd1;
+  box-sizing: border-box;
+  border-radius: 12px;
+  background-color: #ffffff;
+  color: #50777d;
+  font-size: 16px;
+  font-family: "Poppins";
+  line-height: 20px;
+  outline: none;}
+#venue-b input{
+  top: 650px;
+  left: 841px;
+  width: 555px;
+  height: 51px;
+  padding: 0px 8px;
+  border: 1px solid #ccccd1;
+  box-sizing: border-box;
+  border-radius: 12px;
+  background-color: #ffffff;
+  color: #50777d;
+  font-size: 16px;
+  font-family: "Poppins";
+  line-height: 20px;
+  outline: none;
+}
+#planner-email input, #venue-b-contact input{top: 748px;
+  width: 298px;
+  height: 51px;
+  padding: 0px 8px;
+  border: 1px solid #ccccd1;
+  box-sizing: border-box;
+  border-radius: 12px;
+  background-color: #ffffff;
+  color: #50777d;
+  font-size: 16px;
+  font-family: "Poppins";
+  line-height: 20px;
+  outline: none;}
